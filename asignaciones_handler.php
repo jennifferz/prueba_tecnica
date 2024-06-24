@@ -1,3 +1,4 @@
+
 <?php  
 include 'conexion.php'; 
  
@@ -8,6 +9,5 @@ $clave = $_POST['clave'];
 			 VALUES ( '$matricula','$clave')";
 	echo mysqli_query($conexion,$sql);  
 ?>
-
 
  

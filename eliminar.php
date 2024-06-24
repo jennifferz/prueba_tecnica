@@ -1,3 +1,4 @@
+ 
 <?php
 if(!empty($_GET)){
 			include "conexion.php";
@@ -11,4 +12,5 @@ if(!empty($_GET)){
 
 			}
 }
+ 
 ?>

@@ -1,3 +1,4 @@
+ 
 <?php  
 include 'conexion.php'; 
  
@@ -9,6 +10,5 @@ include 'conexion.php';
 			 VALUES ('$clave', '$nombre')";
 	echo mysqli_query($conexion,$sql);  
 ?>
-
 
  
